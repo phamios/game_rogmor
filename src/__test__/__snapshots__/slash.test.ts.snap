@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`First full combat round samurai skill object list is 1`] = `
+Array [
+  Object {
+    "doit": 2,
+    "fill": 0,
+    "mul": 2,
+    "select": 6,
+    "type": 1,
+  },
+  Object {
+    "doit": 2,
+    "fill": 2,
+    "mul": 4,
+    "select": 6,
+    "type": 1,
+  },
+  Object {
+    "doit": 2,
+    "fill": 4,
+    "mul": 2,
+    "select": 2,
+    "type": 1,
+  },
+]
+`;
+
+exports[`encounter setup 1`] = `
+Object {
+  "mobList": Array [
+    Object {
+      "ability": Object {
+        "aura": 18,
+        "body": 28,
+        "focus": 160,
+        "morale": 110,
+        "reflex": 25,
+        "soul": 25,
+        "stamina": 123,
+        "title": "Icelander",
+      },
+      "avatar": 2,
+      "condition": Object {
+        "focusState": 160,
+        "moraleState": 110,
+        "staminaState": 123,
+      },
+      "coord": 1,
+      "level": 5,
+      "name": "icelander level:5",
+      "professionType": "icelander",
+      "team": 2,
+      "uid": "id:icelander-5",
+    },
+    Object {
+      "ability": Object {
+        "aura": 41,
+        "body": 26,
+        "focus": 228,
+        "morale": 156,
+        "reflex": 30,
+        "soul": 34,
+        "stamina": 174,
+        "title": "Bishop",
+      },
+      "avatar": 2,
+      "condition": Object {
+        "focusState": 228,
+        "moraleState": 156,
+        "staminaState": 174,
+      },
+      "coord": 1,
+      "level": 6,
+      "name": "bishop level:6",
+      "professionType": "bishop",
+      "team": 2,
+      "uid": "id:bishop-6",
+    },
+    Object {
+      "ability": Object {
+        "aura": 18,
+        "body": 23,
+        "focus": 148,
+        "morale": 110,
+        "reflex": 28,
+        "soul": 13,
+        "stamina": 123,
+        "title": "Assasin",
+      },
+      "avatar": 2,
+      "condition": Object {
+        "focusState": 148,
+        "moraleState": 110,
+        "staminaState": 123,
+      },
+      "coord": 1,
+      "level": 5,
+      "name": "assasin level:5",
+      "professionType": "assasin",
+      "team": 2,
+      "uid": "id:assasin-5",
+    },
+    Object {
+      "ability": Object {
+        "aura": 13,
+        "body": 14,
+        "focus": 80,
+        "morale": 72,
+        "reflex": 21,
+        "soul": 13,
+        "stamina": 96,
+        "title": "Ninja",
+      },
+      "avatar": 2,
+      "condition": Object {
+        "focusState": 80,
+        "moraleState": 72,
+        "staminaState": 96,
+      },
+      "coord": 1,
+      "level": 4,
+      "name": "ninja level:4",
+      "professionType": "ninja",
+      "team": 1,
+      "uid": "id:ninja-4",
+    },
+    Object {
+      "ability": Object {
+        "aura": 39,
+        "body": 43,
+        "focus": 284,
+        "morale": 210,
+        "reflex": 48,
+        "soul": 34,
+        "stamina": 357,
+        "title": "Samurai",
+      },
+      "avatar": 2,
+      "condition": Object {
+        "focusState": 284,
+        "moraleState": 210,
+        "staminaState": 357,
+      },
+      "coord": 1,
+      "level": 7,
+      "name": "samurai level:7",
+      "professionType": "samurai",
+      "team": 1,
+      "uid": "id:samurai-7",
+    },
+    Object {
+      "ability": Object {
+        "aura": 18,
+        "body": 13,
+        "focus": 112,
+        "morale": 72,
+        "reflex": 13,
+        "soul": 18,
+        "stamina": 96,
+        "title": "Merchant",
+      },
+      "avatar": 2,
+      "condition": Object {
+        "focusState": 112,
+        "moraleState": 72,
+        "staminaState": 96,
+      },
+      "coord": 1,
+      "level": 4,
+      "name": "merchant level:4",
+      "professionType": "merchant",
+      "team": 1,
+      "uid": "id:merchant-4",
+    },
+  ],
+}
+`;
+
+exports[`samurai lvl 5 1`] = `
+Object {
+  "ability": Object {
+    "aura": 23,
+    "body": 25,
+    "focus": 148,
+    "morale": 110,
+    "reflex": 28,
+    "soul": 20,
+    "stamina": 185,
+    "title": "Samurai",
+  },
+  "avatar": 2,
+  "condition": Object {
+    "focusState": 148,
+    "moraleState": 110,
+    "staminaState": 185,
+  },
+  "coord": 1,
+  "level": 5,
+  "name": "samurai level:5",
+  "professionType": "samurai",
+  "team": 1,
+  "uid": "id:samurai-5",
+}
+`;

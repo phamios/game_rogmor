@@ -1,0 +1,52 @@
+.item-sprite {
+  width: 40px;
+  height: 40px;  
+  background: url($asset + "sprites/items.png") no-repeat;
+
+  &[data-item="0"] { background-position: -1px -1px; }
+  &[data-item="1"] { background-position: -43px -1px; }
+  &[data-item="2"] { background-position: -85px -1px; }
+  &[data-item="3"] { background-position: -127px -1px; }
+  &[data-item="4"] { background-position: -169px -1px; }
+  &[data-item="5"] { background-position: -211px -1px; }
+  &[data-item="6"] { background-position: -1px -43px; }
+  &[data-item="7"] { background-position: -43px -43px; }
+  &[data-item="8"] { background-position: -85px -43px; }
+  &[data-item="9"] { background-position: -127px -43px; }
+  &[data-item="10"] { background-position: -169px -43px; }
+  &[data-item="11"] { background-position: -211px -43px; }
+  &[data-item="12"] { background-position: -1px -85px; }
+  &[data-item="13"] { background-position: -43px -85px; }
+  &[data-item="14"] { background-position: -85px -85px; }
+  &[data-item="15"] { background-position: -127px -85px; }
+  &[data-item="16"] { background-position: -169px -85px; }
+  &[data-item="17"] { background-position: -211px -85px; }
+  &[data-item="18"] { background-position: -1px -127px; }
+  &[data-item="19"] { background-position: -43px -127px; }
+  &[data-item="20"] { background-position: -85px -127px; }
+  &[data-item="21"] { background-position: -127px -127px; }
+  &[data-item="22"] { background-position: -169px -127px; }
+  &[data-item="23"] { background-position: -211px -127px; }
+  &[data-item="24"] { background-position: -1px -169px; }
+  &[data-item="25"] { background-position: -43px -169px; }
+  &[data-item="26"] { background-position: -85px -169px; }
+  &[data-item="27"] { background-position: -127px -169px; }
+  &[data-item="28"] { background-position: -169px -169px; }
+  &[data-item="29"] { background-position: -211px -169px; }
+  &[data-item="30"] { background-position: -1px -211px; }
+  &[data-item="31"] { background-position: -43px -211px; }
+  &[data-item="32"] { background-position: -85px -211px; }
+  &[data-item="33"] { background-position: -127px -211px; }
+  &[data-item="34"] { background-position: -169px -211px; }
+  &[data-item="35"] { background-position: -211px -211px; }
+  &[data-item="36"] { background-position: -253px -1px; }
+  &[data-item="37"] { background-position: -253px -43px; }
+  &[data-item="38"] { background-position: -253px -85px; }
+  &[data-item="39"] { background-position: -253px -127px; }
+  &[data-item="40"] { background-position: -253px -169px; }
+  &[data-item="41"] { background-position: -253px -211px; }
+  &[data-item="42"] { background-position: -1px -253px; }
+  &[data-item="43"] { background-position: -43px -253px; }
+  &[data-item="44"] { background-position: -85px -253px  ; }
+}
+

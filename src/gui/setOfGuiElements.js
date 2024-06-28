@@ -1,0 +1,15 @@
+export const ModalWindow = props => <div className='modal-window' {...props} />;
+export const Page = props => <div className='page' {...props} />;
+export const FaceSprite = props => <div className='face-sprite adventure--hero' {...props} />;
+export const FaceGallery = props => <div className='face-gallery' {...props} />;
+export const ItemSprite = props => <div className='item-sprite adventure--item' {...props} />;
+export const BaseOfAdventure = props => <div className='mobil-page' {...props} />;
+export const LoginWindow = props => <div className='gui gui-loginw' {...props} />;
+export const FaceWindow = props => <div className='gui gui-storyw' {...props} />;
+export const ChatWindow = props => <div className='gui gui-chatWindow' {...props} />;
+export const DarkPanel = props => <div className='gui gui-transPanelDark z300' {...props} />;
+export const InfoPanel = props => <div className='gui gui-infow' {...props} />;
+export const RogmorLogo = props => <div className='gui gui-rogmor_198x63' {...props} />;
+export const NoreboMap = props => <div className='norebo-map-r-90' {...props} />;
+export const Button = props => <div className='gui button-9-slice' {...props} />;
+export const Button70 = props => <div className='gui button-70' {...props} />;

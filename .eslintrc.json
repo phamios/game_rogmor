@@ -1,0 +1,42 @@
+{
+  "parser": "@babel/eslint-parser",
+  "plugins": ["unused-imports", "react", "react-hooks", "@next/eslint-plugin-next", "tailwindcss"],
+  "rules": {
+    "unused-imports/no-unused-imports": "warn",
+    "unused-imports/no-unused-vars": [
+        "warn",
+        { "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
+    ],
+    "no-undef" : "error",
+    "react/jsx-uses-vars": "warn",
+    "react/jsx-uses-react": "warn"
+  },
+  "globals": {
+    "console" : "readonly",
+    "document" : "readonly",
+    "fetch" : "readonly",
+    "global" : "readonly",
+    "error" : "readonly",
+    "test" : "readonly",
+    "expect" : "readonly",
+    "module" : "readonly",
+    "require" : "readonly",
+    "keyof" : "readonly",
+    "requestAnimationFrame" : "readonly",
+    "performance" : "readonly",
+    "Record" : "readonly",
+    "Partial" : "readonly",
+    "Omit" : "readonly",
+    "Nullable" : "readonly",
+    "Promise" : "readonly",
+    "MutationObserver" : "readonly",
+    "Float32Array" : "readonly",
+    "Uint16Array" : "readonly",
+    "CustomEvent" : "readonly",
+    "setTimeout" : "readonly",
+    "setInterval" : "readonly",
+    "clearInterval" : "readonly",
+    "clearTimeout" : "readonly",
+    "DOMParser" : "readonly"
+  }
+}

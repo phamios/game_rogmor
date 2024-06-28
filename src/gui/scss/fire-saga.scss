@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-gap: .5em;
+  padding: .5em;
+  grid-template-areas:
+    "a a a" 
+}
+
+.card {
+  height: 150px;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+  border-radius: 10px;
+  grid-area: "a";
+  position: relative;
+  display: grid;
+  place-items: center; 
+}
+
+.card--content { 
+  position: absolute; 
+  h1, p { text-align: center;}
+}
+
+.card--icon {
+  position: absolute;
+  top: -10px;
+  filter: brightness(0.6) sepia(1) contrast(1.3) hue-rotate(0deg);
+}
+
+.quality-zero      { filter: brightness(0.8) }
+.quality-basic     { filter: brightness(0.5) sepia(1) contrast(1.3) hue-rotate(0deg); }
+.quality-rare      { filter: brightness(0.6) sepia(1) contrast(1.3) hue-rotate(45deg); }
+.quality-epic      { filter: brightness(0.6) sepia(1) contrast(1) hue-rotate(120deg); }
+.quality-legendary { filter: brightness(0.6) sepia(1) contrast(1) hue-rotate(180deg); }
+.quality-mythic    { filter: brightness(0.6) sepia(1) contrast(1.5) hue-rotate(270deg); }
+
+.head { grid-area: "c";}
+
+.simple, [data-wide="1"] { grid-column: auto / span 1; }
+.double, [data-wide="2"] { grid-column: auto / span 2; }
+.triple, [data-wide="3"] { grid-column: auto / span 3; }

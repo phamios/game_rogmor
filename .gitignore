@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cache/
+.vscode/
+.next/
+yarn.lock
+yarn-error.log
+.env.local
+chatgptmiminalmmorpg.text
+__5__let__.md

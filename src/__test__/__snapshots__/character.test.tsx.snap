@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fighter speed number by levels 1`] = `
+Array [
+  "Fighter level:100 163",
+  "Fighter level:95 155",
+  "Fighter level:90 147",
+  "Fighter level:85 139",
+  "Fighter level:80 131",
+  "Fighter level:75 123",
+  "Fighter level:70 115",
+  "Fighter level:65 107",
+  "Fighter level:60 99",
+  "Fighter level:55 91",
+  "Fighter level:50 83",
+  "Fighter level:45 75",
+  "Fighter level:40 67",
+  "Fighter level:35 59",
+  "Fighter level:30 51",
+  "Fighter level:25 43",
+  "Fighter level:20 34",
+  "Fighter level:15 26",
+  "Fighter level:10 18",
+  "Fighter level:5 10",
+]
+`;
+
+exports[`Level Up to fighter 2 1`] = `
+Object {
+  "ability": Object {
+    "aura": 6,
+    "body": 7,
+    "focus": 22,
+    "morale": 20,
+    "reflex": 6,
+    "soul": 5,
+    "stamina": 26,
+    "title": "Fighter",
+  },
+  "avatar": 22,
+  "condition": Object {
+    "focusState": 22,
+    "moraleState": 20,
+    "staminaState": 26,
+  },
+  "coord": 0,
+  "level": 2,
+  "name": "Mr. Foo",
+  "professionType": "fighter",
+  "team": 2,
+  "uid": "dfx532",
+}
+`;
+
+exports[`Personalize lvl 1 fighter 1`] = `
+Object {
+  "ability": Object {
+    "aura": 2,
+    "body": 3,
+    "focus": 7,
+    "morale": 6,
+    "reflex": 2,
+    "soul": 2,
+    "stamina": 8,
+    "title": "Fighter",
+  },
+  "avatar": 22,
+  "condition": Object {
+    "focusState": 7,
+    "moraleState": 6,
+    "staminaState": 8,
+  },
+  "coord": 0,
+  "level": 1,
+  "name": "Mr. Foo",
+  "professionType": "fighter",
+  "team": 2,
+  "uid": "dfx532",
+}
+`;
+
+exports[`Samurai speed number by levels 1`] = `
+Array [
+  "Samurai level:100 227",
+  "Samurai level:95 215",
+  "Samurai level:90 204",
+  "Samurai level:85 193",
+  "Samurai level:80 182",
+  "Samurai level:75 170",
+  "Samurai level:70 159",
+  "Samurai level:65 148",
+  "Samurai level:60 137",
+  "Samurai level:55 126",
+  "Samurai level:50 114",
+  "Samurai level:45 103",
+  "Samurai level:40 92",
+  "Samurai level:35 81",
+  "Samurai level:30 70",
+  "Samurai level:25 58",
+  "Samurai level:20 47",
+  "Samurai level:15 36",
+  "Samurai level:10 25",
+  "Samurai level:5 14",
+]
+`;
+
+exports[`create lvl 1 fighter 1`] = `
+Object {
+  "ability": Object {
+    "aura": 2,
+    "body": 3,
+    "focus": 7,
+    "morale": 6,
+    "reflex": 2,
+    "soul": 2,
+    "stamina": 8,
+    "title": "Fighter",
+  },
+  "condition": Object {
+    "focusState": 7,
+    "moraleState": 6,
+    "staminaState": 8,
+  },
+  "level": 1,
+  "professionType": "fighter",
+}
+`;
+
+exports[`speed order of different profession lvl 10 1`] = `
+Array [
+  "samurai",
+  "duelist",
+  "dementor",
+  "valkur",
+  "ninja",
+  "headHunter",
+  "barbarian",
+  "archer",
+  "assasin",
+  "wardancer",
+  "icelander",
+  "monk",
+  "beastmaster",
+  "chief",
+  "captain",
+  "rogue",
+  "noble",
+  "guard",
+  "sage",
+  "warlord",
+  "bishop",
+  "tracker",
+  "necromanta",
+  "summoner",
+  "shaman",
+  "thief",
+  "rouge",
+  "cavalier",
+  "pirate",
+  "inquisitor",
+  "heretic",
+  "nomad",
+  "bard",
+  "warlock",
+  "druid",
+  "runeSmith",
+  "explorer",
+  "spy",
+  "nun",
+  "mercenary",
+  "sorcerer",
+  "alchemist",
+  "gladiator",
+  "merchant",
+  "enginer",
+  "antiPaladin",
+  "chaosKnight",
+  "illusionist",
+  "templar",
+  "psionic",
+  "fighter",
+  "knight",
+  "witch",
+  "maruder",
+  "rich",
+  "shapechanger",
+  "mage",
+  "priest",
+  "paladin",
+  "wizard",
+]
+`;
